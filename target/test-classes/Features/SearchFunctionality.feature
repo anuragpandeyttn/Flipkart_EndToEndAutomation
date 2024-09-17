@@ -2,9 +2,9 @@ Feature: To validate the Flipkart Application
 
 Background:
 
-Given launch the Flipkart Application 
-Then It should be Navigate to the home page
 
+
+Then It should be Navigate to the home page
 
 @tc001
 Scenario: To validate the search functionality 
@@ -68,6 +68,10 @@ And Enter the delivery pin code and click the check link
 Then Pincode should be checked and displayed and verify the titles
 
 
-
+@tc006 
+Scenario: To get the title and price from search result
+Given Enter the search text in the search field 
+When Click the search icon
+#Then it should display the search result and get title and price
 
 

@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Library {
-	public static WebDriver driver;
+	public static  WebDriver driver;
 	public static  Properties prop;
 	
 	public void launchapplication() throws IOException

@@ -55,7 +55,7 @@ public class SearchMobile_Testcase extends Library {
 	@Then("Print the Third result and keep it in the console")
 	public void print_the_Third_result_and_keep_it_in_the_console() {
 		sp.Print3rdResult();
-		driver.close();
+		//driver.close();
 	}
 	
 }
